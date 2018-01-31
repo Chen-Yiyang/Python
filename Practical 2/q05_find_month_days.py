@@ -2,7 +2,7 @@
 # by Yiyang 29/01/18
 
 def _leapFeb(w, x): # used to test if its Feb in a leap year and if yes, adjust the days by +1
-    if (w == 2) && ((x % 4 == 0 and x % 100 != 0) or (x % 400 == 0)):
+    if (w == 2) and ((x % 4 == 0 and x % 100 != 0) or (x % 400 == 0)):
         return 1
     else:
         return 0
