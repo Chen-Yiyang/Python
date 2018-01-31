@@ -13,4 +13,4 @@ monthLength = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 monthValue = int(input("Month: "))
 yearValue = int(input("Year: "))
 
-print("{0} {1} has {2} days.".format(monthName[monthValue-1], yearValue, monthLength[monthValue-1] + _leap(monthValue, yearValue)))
+print("{0} {1} has {2} days.".format(monthName[monthValue-1], yearValue, monthLength[monthValue-1] + _leapFeb(monthValue, yearValue)))
