@@ -13,3 +13,9 @@ def reverse_int(n):
 
 n = int(input())
 print(reverse_int(n))
+
+
+# alt (better) way of reversing
+# credited: ddx-510
+# n = input("A number:")
+# print(n[::-1])
