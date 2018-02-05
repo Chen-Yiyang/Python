@@ -9,11 +9,11 @@ index2 = 0
 score1 = -1
 score2 = -1
 
-studentNo = int(input())
+studentNo = int(input()) # provide prompt message
 
 for i in range(studentNo):
-    studentNames.append(input())
-    studentScores.append(int(input()))
+    studentNames.append(input()) # provide prompt message
+    studentScores.append(int(input())) # provide prompt message
     
     if studentScores[i] > score1 :
         score2 = score1
